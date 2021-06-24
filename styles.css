@@ -1,0 +1,98 @@
+/*///////////////////////*/
+/*     General Styles    */
+/*///////////////////////*/
+
+* {
+    
+    min-height: 10px;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 0;
+}
+
+body {
+    background-color: rgb(180, 180, 178);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: justify;
+    font-size: 1.3rem;
+    width: max-content;
+    padding-left: 180px;
+}
+
+h3 {
+    font-size: 0.7rem;
+    width: max-content;
+    padding-top: 7.5px;
+    padding-left: 2px;
+}
+
+p {
+    font-size: 0.6rem;
+    padding-top: 7.5px;
+    padding-left: 2px;
+}
+
+img {
+    width: 300px;
+    height: 230px;
+    object-fit: contain;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+/*///////////////////////*/
+/*      Page Header      */
+/*///////////////////////*/
+
+
+.header {
+    background-color: white;
+    
+    padding: 10px;
+       
+}
+
+/*///////////////////////*/
+/*     Picture Frames    */
+/*///////////////////////*/
+
+.picframe {
+    width: 350px;
+    height: 300px;
+    background-color: white;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 1px solid rgba(17, 17, 17, 0.76);
+    border-left: 2px solid rgba(17, 17, 17, 0.76);   
+}
+
+.pic-header, 
+.pic-footer {
+    background-color: white;
+    margin-left: 0;
+    margin-right: 0;
+    position: relative;
+}
+
+.pic-header {
+    height: 30px;
+    border-bottom: 1px solid lightgray;
+}
+
+.pic-footer {
+   height: 35px;
+   border-top: 1px solid lightgray; 
+}
+
+
+
+
+
